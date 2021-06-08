@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/e_bacc"
+    tools:context=".MAIN">
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_height="50dp"
+        android:background="@android:color/darker_gray"
+        android:hint="@string/name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:background="@android:color/darker_gray"
+        android:inputType="text"
+        android:hint="@string/age"/>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:hint="@string/username"
+        android:background="@android:color/darker_gray"
+        android:inputType="text"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:hint="@string/email"
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="5dp"
+        android:hint="@string/password"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/copass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="5dp"
+        android:hint="@string/confirmpass"
+        android:ems="10"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/bRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/button"
+        android:textStyle="bold"
+        android:text="@string/Regi" />
+
+
+</LinearLayout>

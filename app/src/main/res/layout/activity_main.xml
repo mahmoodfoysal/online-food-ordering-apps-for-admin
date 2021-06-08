@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/e_bacc"
+    android:orientation="vertical"
+    tools:context=".MAIN">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="8sp"
+        android:ems="10"
+        android:background="@android:color/darker_gray"
+        android:hint="@string/emailhint"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="8sp"
+        android:ems="10"
+        android:background="@android:color/darker_gray"
+        android:hint="@string/passhint"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/btnstr" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:background="@drawable/button1"
+        android:layout_margin="50dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="@string/Register" />
+</LinearLayout>

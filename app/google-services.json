@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1081434689275",
+    "firebase_url": "https://foodlover-b7b2b.firebaseio.com",
+    "project_id": "foodlover-b7b2b",
+    "storage_bucket": "foodlover-b7b2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081434689275:android:1a6ddb6ae573dc60",
+        "android_client_info": {
+          "package_name": "com.example.dreamland.foodlover"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081434689275-cg6soqolhe5tfjvth34l3qek8qv6g5ub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dreamland.foodlover",
+            "certificate_hash": "19dbcd25c4a4cc3e37c8be7bd932d84df83361d5"
+          }
+        },
+        {
+          "client_id": "1081434689275-36rduo0ljvo35iaff900ajl5vufv6hbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH-HWZ6saz_qR_C70vaLNpMLsntJztRNk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081434689275-36rduo0ljvo35iaff900ajl5vufv6hbv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

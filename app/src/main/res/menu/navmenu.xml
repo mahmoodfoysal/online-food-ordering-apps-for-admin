@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/postnev"
+        android:title="Post"/>
+    <item android:id="@+id/ordernev"
+        android:title="View Orders"/>
+    <item android:id="@+id/massagenev"
+        android:title="Massage"/>
+    <item android:id="@+id/offersnev"
+        android:title="Post Offers"/>
+
+</menu>
